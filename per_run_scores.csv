@@ -1,0 +1,251 @@
+﻿country,seed,concept,score
+US,1,Addiction,0.23634
+US,1,Abuse,0.05211
+US,1,Overdose,0.05028
+US,1,Prevention,0.06378
+US,1,Opioid,0.09
+US,1,Rehabilitation,-0.07775
+US,1,Drug user,0.04669
+US,1,Prescription,0.05525
+US,1,Cocaine,-0.05982
+US,1,Heroin,0.01929
+US,1,Trafficking,-0.13008
+US,1,Drug (general),-0.22052
+US,1,Marijuana,-0.21039
+US,2,Addiction,0.2612
+US,2,Abuse,0.06018
+US,2,Overdose,0.06294
+US,2,Prevention,0.06736
+US,2,Opioid,0.09094
+US,2,Rehabilitation,-0.07992
+US,2,Drug user,0.07436
+US,2,Prescription,0.05894
+US,2,Cocaine,-0.00402
+US,2,Heroin,-0.00242
+US,2,Trafficking,-0.16044
+US,2,Drug (general),-0.18956
+US,2,Marijuana,-0.19426
+US,3,Addiction,0.24136
+US,3,Abuse,0.07578
+US,3,Overdose,0.05778
+US,3,Prevention,0.07922
+US,3,Opioid,0.07153
+US,3,Rehabilitation,-0.0627
+US,3,Drug user,0.10274
+US,3,Prescription,-0.00075
+US,3,Cocaine,-0.00281
+US,3,Heroin,-0.01949
+US,3,Trafficking,-0.18005
+US,3,Drug (general),-0.17655
+US,3,Marijuana,-0.20256
+US,4,Addiction,0.19217
+US,4,Abuse,0.09156
+US,4,Overdose,0.03122
+US,4,Prevention,0.10099
+US,4,Opioid,0.10471
+US,4,Rehabilitation,-0.06892
+US,4,Drug user,0.0084
+US,4,Prescription,0.03255
+US,4,Cocaine,-0.00143
+US,4,Heroin,-0.00607
+US,4,Trafficking,-0.11246
+US,4,Drug (general),-0.18354
+US,4,Marijuana,-0.15963
+US,5,Addiction,0.25986
+US,5,Abuse,0.04654
+US,5,Overdose,0.03157
+US,5,Prevention,0.081
+US,5,Opioid,0.14712
+US,5,Rehabilitation,-0.09392
+US,5,Drug user,0.04617
+US,5,Prescription,0.0417
+US,5,Cocaine,0.0309
+US,5,Heroin,0.02881
+US,5,Trafficking,-0.19022
+US,5,Drug (general),-0.20373
+US,5,Marijuana,-0.17623
+US,6,Addiction,0.26794
+US,6,Abuse,0.07362
+US,6,Overdose,0.03903
+US,6,Prevention,0.08247
+US,6,Opioid,0.08599
+US,6,Rehabilitation,-0.09683
+US,6,Drug user,0.04256
+US,6,Prescription,0.03082
+US,6,Cocaine,0.03036
+US,6,Heroin,0.05815
+US,6,Trafficking,-0.19635
+US,6,Drug (general),-0.20875
+US,6,Marijuana,-0.18201
+US,7,Addiction,0.19907
+US,7,Abuse,0.08402
+US,7,Overdose,0.04253
+US,7,Prevention,0.05706
+US,7,Opioid,0.08376
+US,7,Rehabilitation,-0.10935
+US,7,Drug user,0.04002
+US,7,Prescription,0.00444
+US,7,Cocaine,-0.01521
+US,7,Heroin,-0.00728
+US,7,Trafficking,-0.17134
+US,7,Drug (general),-0.16879
+US,7,Marijuana,-0.19588
+US,8,Addiction,0.22824
+US,8,Abuse,0.04398
+US,8,Overdose,0.06956
+US,8,Prevention,0.06722
+US,8,Opioid,0.06202
+US,8,Rehabilitation,-0.1071
+US,8,Drug user,-0.00321
+US,8,Prescription,0.00538
+US,8,Cocaine,-0.00797
+US,8,Heroin,0.00744
+US,8,Trafficking,-0.1631
+US,8,Drug (general),-0.21515
+US,8,Marijuana,-0.15328
+US,9,Addiction,0.23819
+US,9,Abuse,0.04268
+US,9,Overdose,0.06822
+US,9,Prevention,0.0485
+US,9,Opioid,0.07383
+US,9,Rehabilitation,-0.09692
+US,9,Drug user,0.0357
+US,9,Prescription,-0.01857
+US,9,Cocaine,-0.07361
+US,9,Heroin,-0.07714
+US,9,Trafficking,-0.15218
+US,9,Drug (general),-0.24065
+US,9,Marijuana,-0.2144
+US,10,Addiction,0.20868
+US,10,Abuse,0.04455
+US,10,Overdose,0.04206
+US,10,Prevention,0.04985
+US,10,Opioid,0.06758
+US,10,Rehabilitation,-0.0809
+US,10,Drug user,0.03349
+US,10,Prescription,-0.00844
+US,10,Cocaine,-0.02153
+US,10,Heroin,0.00723
+US,10,Trafficking,-0.12321
+US,10,Drug (general),-0.20602
+US,10,Marijuana,-0.13817
+CN,1,Addiction,0.11587
+CN,1,Abuse,-0.02009
+CN,1,Prevention,-0.09055
+CN,1,Opioid,0.14659
+CN,1,Rehabilitation,0.32779
+CN,1,Drug user,0.12003
+CN,1,Prescription,0.19554
+CN,1,Cocaine,-0.18517
+CN,1,Heroin,-0.26327
+CN,1,Trafficking,-0.32909
+CN,1,Drug (general),-0.22052
+CN,1,Marijuana,-0.19713
+CN,2,Addiction,0.13295
+CN,2,Abuse,-0.00134
+CN,2,Prevention,-0.10741
+CN,2,Opioid,0.11508
+CN,2,Rehabilitation,0.29987
+CN,2,Drug user,0.12197
+CN,2,Prescription,0.18774
+CN,2,Cocaine,-0.16695
+CN,2,Heroin,-0.25524
+CN,2,Trafficking,-0.29564
+CN,2,Drug (general),-0.25155
+CN,2,Marijuana,-0.18463
+CN,3,Addiction,0.09224
+CN,3,Abuse,-0.01974
+CN,3,Prevention,-0.12883
+CN,3,Opioid,0.13816
+CN,3,Rehabilitation,0.32185
+CN,3,Drug user,0.11687
+CN,3,Prescription,0.18063
+CN,3,Cocaine,-0.16113
+CN,3,Heroin,-0.28512
+CN,3,Trafficking,-0.30069
+CN,3,Drug (general),-0.21388
+CN,3,Marijuana,-0.18828
+CN,4,Addiction,0.07868
+CN,4,Abuse,-0.049
+CN,4,Prevention,-0.12211
+CN,4,Opioid,0.17605
+CN,4,Rehabilitation,0.31355
+CN,4,Drug user,0.11966
+CN,4,Prescription,0.15376
+CN,4,Cocaine,-0.15591
+CN,4,Heroin,-0.27143
+CN,4,Trafficking,-0.33354
+CN,4,Drug (general),-0.2505
+CN,4,Marijuana,-0.17741
+CN,5,Addiction,0.10025
+CN,5,Abuse,-0.00477
+CN,5,Prevention,-0.08348
+CN,5,Opioid,0.13645
+CN,5,Rehabilitation,0.30828
+CN,5,Drug user,0.09816
+CN,5,Prescription,0.19218
+CN,5,Cocaine,-0.18051
+CN,5,Heroin,-0.274
+CN,5,Trafficking,-0.3232
+CN,5,Drug (general),-0.24014
+CN,5,Marijuana,-0.21522
+CN,6,Addiction,0.09305
+CN,6,Abuse,-0.01935
+CN,6,Prevention,-0.06559
+CN,6,Opioid,0.1286
+CN,6,Rehabilitation,0.32043
+CN,6,Drug user,0.09272
+CN,6,Prescription,0.19888
+CN,6,Cocaine,-0.19892
+CN,6,Heroin,-0.25808
+CN,6,Trafficking,-0.35916
+CN,6,Drug (general),-0.2234
+CN,6,Marijuana,-0.20429
+CN,7,Addiction,0.11971
+CN,7,Abuse,-0.01774
+CN,7,Prevention,-0.08259
+CN,7,Opioid,0.14447
+CN,7,Rehabilitation,0.27049
+CN,7,Drug user,0.11349
+CN,7,Prescription,0.167
+CN,7,Cocaine,-0.17716
+CN,7,Heroin,-0.2535
+CN,7,Trafficking,-0.29599
+CN,7,Drug (general),-0.23589
+CN,7,Marijuana,-0.18349
+CN,8,Addiction,0.04982
+CN,8,Abuse,-0.04695
+CN,8,Prevention,-0.11095
+CN,8,Opioid,0.14809
+CN,8,Rehabilitation,0.3178
+CN,8,Drug user,0.10383
+CN,8,Prescription,0.16113
+CN,8,Cocaine,-0.1723
+CN,8,Heroin,-0.27109
+CN,8,Trafficking,-0.32166
+CN,8,Drug (general),-0.23235
+CN,8,Marijuana,-0.17536
+CN,9,Addiction,0.10607
+CN,9,Abuse,-0.00503
+CN,9,Prevention,-0.14393
+CN,9,Opioid,0.16233
+CN,9,Rehabilitation,0.30248
+CN,9,Drug user,0.0767
+CN,9,Prescription,0.15118
+CN,9,Cocaine,-0.17828
+CN,9,Heroin,-0.251
+CN,9,Trafficking,-0.32791
+CN,9,Drug (general),-0.24454
+CN,9,Marijuana,-0.15535
+CN,10,Addiction,0.10974
+CN,10,Abuse,-0.01148
+CN,10,Prevention,-0.07193
+CN,10,Opioid,0.14272
+CN,10,Rehabilitation,0.31408
+CN,10,Drug user,0.07892
+CN,10,Prescription,0.17531
+CN,10,Cocaine,-0.20908
+CN,10,Heroin,-0.28668
+CN,10,Trafficking,-0.33898
+CN,10,Drug (general),-0.22978
+CN,10,Marijuana,-0.20621

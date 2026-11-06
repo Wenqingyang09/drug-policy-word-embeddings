@@ -1,0 +1,14 @@
+﻿Concept,US percentile,CN percentile,pct CN lower runs,pct direction,raw share of 100 pairs CN lower,pct share of 100 pairs CN lower
+Addiction,98.8,74.1,10,CN lower,1.0,1.0
+Abuse,86.5,45.7,10,CN lower,1.0,1.0
+Overdose,84.6,,,,,
+Prevention,87.8,29.5,10,CN lower,1.0,1.0
+Opioid,89.8,81.3,10,CN lower,0.07,1.0
+Rehabilitation,54.0,96.5,0,CN higher,0.0,0.0
+Drug user,83.2,74.9,9,CN lower,0.04,0.92
+Prescription,79.2,85.7,0,CN higher,0.0,0.11
+Cocaine,72.4,17.0,10,CN lower,1.0,1.0
+Heroin,75.2,7.7,10,CN lower,1.0,1.0
+Trafficking,33.7,3.8,10,CN lower,1.0,1.0
+Drug (general),22.9,10.8,10,CN lower,0.91,1.0
+Marijuana,27.5,15.7,10,CN lower,0.57,1.0

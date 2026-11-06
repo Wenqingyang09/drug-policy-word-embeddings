@@ -1,0 +1,86 @@
+Function words removed in part 3 only: US ['a', 'an', 'and', 'are', 'as', 'at', 'be', 'by', 'for', 'from', 'in', 'is', 'its', 'of', 'on', 'or', 'that', 'the', 'their', 'this', 'to', 'will', 'with']
+                                       CN ['与', '为', '了', '以及', '其', '及', '可以', '和', '在', '对', '将', '并', '应当', '或', '或者', '是', '由', '的', '等']
+==============================================================================
+US  rehabilitation   frequency 26
+  word before : and 5, the 3, residential 2, treatment 2, meaningful 2, foster 1, detoxification 1, term 1, a 1, drug 1, of 1, their 1, improves 1
+  word after  : and 7, of 2, program 2, supported 1, facilities 1, treatment 1, is 1, needs 1, programs 1, found 1, skills 1, outcome 1, this 1, during 1
+  within ±5   : corrections 5, treatment 4, programs 4, department 4, reentry 3, drug 3, california 3, public 2, supported 2, residential 2, disabilities 2, term 2, program 2, also 2, support 2, meaningful 2, emergency 1, room 1, severe 1, injuries 1
+  medical anchor within ±5 : 4/26 (15%)
+  punitive anchor within ±5: 0/26 (0%)
+  example 1: ters residential rehabilitation facilities and outpatient clinics the goal is to provide effective safe
+  example 2: treatment rehabilitation and reentry programs available to them and
+  example 3: rehabilitation during his term of incarceration by providing him with the necessary treatment he
+==============================================================================
+US  prevention   frequency 1150
+  word before : and 142, abuse 102, based 70, use 48, drug 45, overdose 44, of 43, the 27, national 26, effective 23, strategic 18, delinquency 14, violence 14, in 14, to 12
+  word after  : and 155, efforts 78, treatment 55, programs 43, strategies 26, plan 23, month 19, national 18, system 17, program 17, of 17, initiatives 16, cdc 16, activities 16, is 15
+  within ±5   : treatment 173, substance 151, drug 125, abuse 122, based 117, control 113, disease 107, efforts 96, centers 94, use 90, national 89, evidence 68, programs 65, community 57, health 57, effective 54, overdose 53, services 47, intervention 42, recovery 41
+  medical anchor within ±5 : 235/1150 (20%)
+  punitive anchor within ±5: 49/1150 (4%)
+  example 1: texas samhsa s collaborative for the application of prevention technologies conducted prevention
+  example 2: developed and is implementing the nation s first prescription drug abuse prevention action plan we are
+  example 3: centers for disease control and prevention integrated prevention services for hiv infection viral
+==============================================================================
+US  abuse   frequency 1186
+  word before : substance 596, drug 355, alcohol 28, and 26, subst 18, of 14, opioid 11, the 8, or 6, who 4, for 4, child 4, rx 3, childhood 3, youth 2
+  word after  : and 310, treatment 135, prevention 102, warning 38, of 30, monitoring 30, is 23, in 21, control 16, treat 15, among 12, or 11, crisis 11, nida 10, problem 10
+  within ±5   : substance 628, drug 413, services 242, health 230, mental 224, administration 186, treatment 180, prescription 171, prevention 122, national 99, s 64, institute 57, alcohol 50, center 50, warning 40, program 40, plan 36, network 34, monitoring 32, abuse 32
+  medical anchor within ±5 : 406/1186 (34%)
+  punitive anchor within ±5: 15/1186 (1%)
+  example 1: contribute to many other social ills including child abuse and neglect school failure poverty mental
+  example 2: additional substance abuse treatment at the indian health service
+  example 3: prevention plan entitled epidemic responding to america s prescription drug abuse crisis building
+==============================================================================
+US  addiction   frequency 532
+  word before : of 73, and 35, drug 35, for 33, from 27, the 19, opioid 16, an 15, with 15, on 15, to 10, in 9, treat 8, that 7, about 5
+  word after  : treatment 77, and 70, is 26, medicine 25, in 15, equity 13, recovery 13, to 12, as 11, technology 9, specialty 8, service 7, can 5, the 4, disease 4
+  within ±5   : treatment 118, drug 56, recovery 46, disease 38, health 36, medicine 30, use 24, center 23, opioid 23, national 20, substance 20, care 19, abuse 19, services 19, support 18, have 17, mental 16, workforce 16, medications 15, about 15
+  medical anchor within ±5 : 204/532 (38%)
+  punitive anchor within ±5: 5/532 (1%)
+  example 1: review laws and regulations that impede recovery from addiction those who have
+  example 2: celebrate and support recovery from addiction
+  example 3: there were a total of established addiction medicine fellowships since the symposium
+==============================================================================
+CN  康复   frequency 881
+  word before : 社区 506, 戒毒 323, 和 10, 矫治 7, 治疗 5, 人员 5, 劳动 3, 服务 3, 教育 2, 身体 2, 心理 2, 戒治 2, 园林化 1, 化 1, 场所 1
+  word after  : 人员 192, 场所 123, 工作 108, 等 65, 协议 52, 的 31, 指导 26, 执行 22, 措施 19, 或者 17, 决定书 15, 并 10, 期间 9, 相互 8, 专职 8
+  within ±5   : 社区 1065, 戒毒 1040, 人员 335, 场所 207, 工作 191, 康复 184, 隔离 96, 强制 81, 协议 63, 禁毒 63, 指导 57, 接受 57, 责令 56, 执行 56, 提供 53, 服务 52, 治疗 48, 措施 46, 就业 46, 管理 40
+  medical anchor within ±5 : 755/881 (86%)
+  punitive anchor within ±5: 0/881 (0%)
+  example 1: 第四十四条  市、区县(自治县)人民政府根据戒毒工作的需要,可以开办戒毒康复场所。
+  example 2: 《社区戒毒(康复)协议》样式由省禁毒委员会办公室负责统一制定。
+  example 3: 第四十条  社区戒毒、社区康复按照下列方式执行:
+==============================================================================
+CN  预防   frequency 182
+  word before : 毒品 94, 为了 29, 防范措施 9, 禁毒 8, 教育 7, 和 6, 培训 4, 疾病 4, 传染病 3, 中华人民共和国 2, 的 2, 及 2, 违法犯罪 2, 将 2, 建立 2
+  word after  : 教育 57, 和 35, 毒品 18, 知识 16, 艾滋病 10, 社区 8, 宣传教育 8, 专题 7, 工作 3, 未成年人 2, 咨询 2, 禁毒 2, 教学 2, 控制 2, 监测 2
+  within ±5   : 毒品 154, 教育 116, 禁毒 64, 违法犯罪 48, 行为 42, 宣传教育 31, 开展 30, 为了 30, 第一条 29, 惩治 29, 社区 28, 戒毒 24, 进行 22, 知识 22, 学校 21, 培训 21, 工作 18, 落实 18, 从业人员 16, 艾滋病 16
+  medical anchor within ±5 : 33/182 (18%)
+  punitive anchor within ±5: 31/182 (17%)
+  example 1: 公路、水路、铁路、航空等交通运输经营单位以及有关站场应当依法落实禁毒防范措施,预防毒品违法犯罪行为的发生。
+  example 2: 乡镇人民政府、街道办事处应当按照国家和省有关规定,落实禁毒工作机构和工作人员,依法做好毒品预防、社区戒毒、社区康复以及其他管理与服务工作。
+  example 3: 公路、水路、铁路、城市轨道交通、航空等交通运输经营单位以及有关站场,应当依法落实禁毒防范措施,预防毒品违法犯罪行为发生。
+==============================================================================
+CN  滥用   frequency 36
+  word before : 被 12, 存在 4, 和 2, 物质 2, 发生 2, 注射 2, 对 2, 精神药品 2, 因 1, 防止 1, 禁止 1, 买卖 1, 流失 1, 登记在册 1, 管理 1
+  word after  : 的 10, 风险 4, 监测 3, 或者 3, 麻醉药品 2, 情形 2, 者 2, 苯丙胺 1, 并重 1, 行为 1, 哌替啶 1, 情况 1, 已经 1, 造成 1, 阿片类 1
+  within ±5   : 被 14, 可能 12, 具有 11, 成瘾性 11, 且易 11, 物质 9, 风险 8, 毒品 8, 造成 7, 用于 7, 制造 7, 麻醉药品 6, 进行 6, 评估 6, 社会 6, 存在 6, 精神药品 5, 管制 5, 非法 4, 管理 4
+  medical anchor within ±5 : 2/36 (6%)
+  punitive anchor within ±5: 0/36 (0%)
+  example 1: 中国不断加强与外国的双边、多边国际禁毒合作。中国与美国从1985年开始进行禁毒合作,1987年,两国政府签署《中美禁毒合作备忘录》。1997年,中美两国首脑签署包括禁毒合作内容的《中美联合声明》,把中美禁毒合作提高到一个新水平。随后,中美两国政府互派了禁毒联络官。中国重视与俄罗斯、哈萨克斯坦、吉尔吉斯斯坦、塔吉克斯坦在禁毒领域的合作。1996年4月,中俄两国签署《关于禁止非法贩运和滥用麻醉药品及精神药物的合作协议》。1998年,中、哈、
+  example 2: 药品监督管理部门按照禁毒委员会规定的职责组织开展麻醉药品、精神药品滥用监测登记时,有关部门和强制隔离戒毒场所、戒毒医疗机构、戒毒药物维持治疗机构等单位应当予以配合。
+  example 3: 对尚未列入管制目录的具有成瘾性且易被滥用的或者可能用于制造毒品的物质,省公安机关应当会同省药品监督管理、应急管理、卫生健康等部门编制禁毒监控物质清单,加强相关产品流向监控和预警,防止其流向涉毒渠道。
+==============================================================================
+CN  成瘾   frequency 184
+  word before : 吸毒 146, 精神药品 24, 种类 4, 和 2, 毒品 2, 物质 2, 阿片类 1, 及 1, 药物 1, 未 1
+  word after  : 人员 96, 尚未 24, 严重 16, 认定 14, 程度 9, 的 9, 自 4, 未 3, 或者 2, 并且 2, 常用 1, 应当 1, 进行 1, 知识 1, 但 1
+  within ±5   : 吸毒 157, 人员 119, 戒毒 54, 戒除 40, 认定 36, 公安机关 34, 强制 34, 隔离 32, 长期 24, 服用 24, 依赖性 24, 精神药品 24, 尚未 24, 进行 23, 严重 18, 社区 18, 吸毒人员 16, 治疗 16, 有 15, 被 13
+  medical anchor within ±5 : 57/184 (31%)
+  punitive anchor within ±5: 0/184 (0%)
+  example 1: 公安机关因技术原因不能对吸毒成瘾进行认定的,应当委托有资质的戒毒医疗机构进行认定。公安机关的委托应当在吸毒人员末次吸毒后七十二小时内进行,戒毒医疗机构应当在接受委托之日起三个工作日内出具吸毒成瘾认定报告。
+  example 2: 吸毒成瘾人员申请参加戒毒药物维持治疗的,应当向现居住地或者户籍所在地的戒毒药物维持治疗机构提出;现居住地或者户籍所在地未设立戒毒药物维持治疗机构的,可以向其他戒毒药物维持治疗机构提出。
+  example 3: 吸毒成瘾人员自愿接受强制隔离戒毒的,经公安机关同意,可以进入强制隔离戒毒场所戒毒。
+==============================================================================
+Chinese fixed phrases (counted in the segmented text)
+  康复 total 881; preceded by 社区 (社区康复) 506 (57%); in 社区戒毒 社区康复 295 (33%); 戒毒 within ±5 748 (85%)
+  预防 total 182; 惩治 within ±5 29 (16%)

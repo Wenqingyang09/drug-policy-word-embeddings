@@ -1,0 +1,13 @@
+﻿Concept,B_CN_lower_runs,B_direction,C_CN_lower_runs,C_direction,D_CN_lower_runs,D_direction
+Addiction,7,undetermined,10,CN lower,10,CN lower
+Abuse,10,CN lower,10,CN lower,10,CN lower
+Prevention,10,CN lower,10,CN lower,10,CN lower
+Opioid,1,CN higher,1,CN higher,0,CN higher
+Rehabilitation,0,CN higher,0,CN higher,0,CN higher
+Drug user,0,CN higher,0,CN higher,1,CN higher
+Prescription,0,CN higher,0,CN higher,0,CN higher
+Cocaine,10,CN lower,10,CN lower,10,CN lower
+Heroin,10,CN lower,10,CN lower,10,CN lower
+Trafficking,10,CN lower,10,CN lower,10,CN lower
+Drug (general),10,CN lower,10,CN lower,7,undetermined
+Marijuana,5,undetermined,5,undetermined,2,undetermined

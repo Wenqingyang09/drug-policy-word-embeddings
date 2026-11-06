@@ -1,0 +1,14 @@
+﻿Concept,US mean,US sd,US sign,CN mean,CN sd,CN sign,Diff mean,Diff min,Diff max,CN lower runs,Direction
+Addiction,0.2333,0.0251,positive,0.0998,0.0222,positive,-0.1335,-0.1784,-0.0794,10/10,CN lower
+Abuse,0.0615,0.0174,positive,-0.0195,0.0156,negative,-0.0811,-0.1406,-0.0477,10/10,CN lower
+Overdose,0.0495,0.0137,positive,,,absent,,,,,US only
+Prevention,0.0697,0.0155,positive,-0.1007,0.0246,negative,-0.1705,-0.2231,-0.1218,10/10,CN lower
+Opioid,0.0877,0.0232,positive,0.1439,0.016,positive,0.0561,-0.0107,0.0885,1/10,CN higher
+Rehabilitation,-0.0874,0.0149,negative,0.3097,0.0154,positive,0.3971,0.3798,0.4249,0/10,CN higher
+Drug user,0.0427,0.0284,positive,0.1042,0.0162,positive,0.0615,0.0141,0.1113,0/10,CN higher
+Prescription,0.0201,0.0259,near zero,0.1763,0.0165,positive,0.1562,0.1212,0.1838,0/10,CN higher
+Cocaine,-0.0125,0.0318,near zero,-0.1785,0.0154,negative,-0.166,-0.2293,-0.1047,10/10,CN lower
+Heroin,0.0009,0.0333,near zero,-0.2669,0.0121,negative,-0.2678,-0.3162,-0.1739,10/10,CN lower
+Trafficking,-0.1579,0.027,negative,-0.3226,0.0193,negative,-0.1646,-0.2211,-0.1206,10/10,CN lower
+Drug (general),-0.2013,0.0208,negative,-0.2343,0.012,negative,-0.0329,-0.0671,-0.0,10/10,CN lower
+Marijuana,-0.1827,0.0243,negative,-0.1887,0.0167,negative,-0.0061,-0.068,0.059,5/10,undetermined
