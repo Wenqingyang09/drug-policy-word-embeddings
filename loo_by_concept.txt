@@ -1,0 +1,20 @@
+Training 10 models per country ...
+   done
+==========================================================================================
+Main analysis (no anchor dropped): Addiction: CN lower, Abuse: CN lower, Prevention: CN lower, Opioid: CN higher, Rehabilitation: CN higher, Drug user: CN higher, Prescription: CN higher, Cocaine: CN lower, Heroin: CN lower, Trafficking: CN lower, Drug (general): CN lower, Marijuana: undetermined
+H1 totals over the 27 leave-one-out runs: CN lower 6-8, CN higher 3-5, undetermined 0-3
+==========================================================================================
+Per concept: in how many of the leave-one-out runs each direction occurs,
+and which dropped anchors change the direction of the main analysis
+   Addiction       main: CN lower      lower 27  higher  0  undetermined  0   changes: none
+   Abuse           main: CN lower      lower 27  higher  0  undetermined  0   changes: none
+   Prevention      main: CN lower      lower 27  higher  0  undetermined  0   changes: none
+   Opioid          main: CN higher     lower  0  higher 25  undetermined  2   changes: CN 患者 -> undetermined; CN 违法 -> undetermined
+   Rehabilitation  main: CN higher     lower  0  higher 27  undetermined  0   changes: none
+   Drug user       main: CN higher     lower  0  higher 27  undetermined  0   changes: none
+   Prescription    main: CN higher     lower  0  higher 27  undetermined  0   changes: none
+   Cocaine         main: CN lower      lower 27  higher  0  undetermined  0   changes: none
+   Heroin          main: CN lower      lower 27  higher  0  undetermined  0   changes: none
+   Trafficking     main: CN lower      lower 27  higher  0  undetermined  0   changes: none
+   Drug (general)  main: CN lower      lower 14  higher  0  undetermined 13   changes: US treatment -> undetermined; US disorder -> undetermined; US health -> undetermined; US care -> undetermined; US offense -> undetermined; US arrest -> undetermined; US enforcement -> undetermined; CN 患者 -> undetermined; CN 戒毒 -> undetermined; CN 医疗 -> undetermined; CN 健康 -> undetermined; CN 犯罪 -> undetermined; CN 惩治 -> undetermined
+   Marijuana       main: undetermined  lower  2  higher  1  undetermined 24   changes: US treatment -> CN lower; US punishment -> CN lower; US offender -> CN higher

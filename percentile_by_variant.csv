@@ -1,0 +1,49 @@
+﻿variant,concept,US percentile,CN percentile,runs CN lower,direction
+line,Addiction,98.8,74.1,10/10,CN lower
+line,Abuse,86.5,45.7,10/10,CN lower
+line,Prevention,87.8,29.5,10/10,CN lower
+line,Opioid,89.8,81.3,10/10,CN lower
+line,Rehabilitation,54.0,96.5,0/10,CN higher
+line,Drug user,83.2,74.9,9/10,CN lower
+line,Prescription,79.2,85.7,0/10,CN higher
+line,Cocaine,72.4,17.0,10/10,CN lower
+line,Heroin,75.2,7.7,10/10,CN lower
+line,Trafficking,33.7,3.8,10/10,CN lower
+line,Drug (general),22.9,10.8,10/10,CN lower
+line,Marijuana,27.5,15.7,10/10,CN lower
+sentence,Addiction,98.3,74.1,10/10,CN lower
+sentence,Abuse,90.9,45.7,10/10,CN lower
+sentence,Prevention,91.5,29.5,10/10,CN lower
+sentence,Opioid,94.7,81.3,10/10,CN lower
+sentence,Rehabilitation,76.1,96.5,0/10,CN higher
+sentence,Drug user,86.5,74.9,10/10,CN lower
+sentence,Prescription,76.7,85.7,1/10,CN higher
+sentence,Cocaine,61.8,17.0,10/10,CN lower
+sentence,Heroin,71.8,7.7,10/10,CN lower
+sentence,Trafficking,27.2,3.8,10/10,CN lower
+sentence,Drug (general),19.7,10.8,10/10,CN lower
+sentence,Marijuana,11.9,15.7,4/10,undetermined
+line_noname,Addiction,98.9,74.1,10/10,CN lower
+line_noname,Abuse,88.1,45.7,10/10,CN lower
+line_noname,Prevention,90.6,29.5,10/10,CN lower
+line_noname,Opioid,91.6,81.3,10/10,CN lower
+line_noname,Rehabilitation,74.8,96.5,0/10,CN higher
+line_noname,Drug user,87.0,74.9,10/10,CN lower
+line_noname,Prescription,80.2,85.7,0/10,CN higher
+line_noname,Cocaine,66.2,17.0,10/10,CN lower
+line_noname,Heroin,76.7,7.7,10/10,CN lower
+line_noname,Trafficking,25.7,3.8,10/10,CN lower
+line_noname,Drug (general),16.2,10.8,8/10,undetermined
+line_noname,Marijuana,29.2,15.7,10/10,CN lower
+sent_noname,Addiction,97.7,74.1,10/10,CN lower
+sent_noname,Abuse,90.2,45.7,10/10,CN lower
+sent_noname,Prevention,91.9,29.5,10/10,CN lower
+sent_noname,Opioid,94.3,81.3,10/10,CN lower
+sent_noname,Rehabilitation,86.2,96.5,0/10,CN higher
+sent_noname,Drug user,85.4,74.9,10/10,CN lower
+sent_noname,Prescription,72.6,85.7,0/10,CN higher
+sent_noname,Cocaine,56.3,17.0,10/10,CN lower
+sent_noname,Heroin,70.9,7.7,10/10,CN lower
+sent_noname,Trafficking,27.8,3.8,10/10,CN lower
+sent_noname,Drug (general),16.6,10.8,9/10,CN lower
+sent_noname,Marijuana,13.7,15.7,3/10,undetermined

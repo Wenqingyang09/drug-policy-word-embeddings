@@ -1,0 +1,157 @@
+﻿variant,setup,concept,US mean,US side,CN mean,CN side,diff CN-US,runs CN lower,direction
+line,B,Addiction,0.2436,M,0.2224,M,-0.0213,7/10,undetermined
+line,B,Abuse,0.0895,M,-0.0403,P,-0.1298,10/10,CN lower
+line,B,Overdose,0.0493,M,,,,,US only
+line,B,Prevention,0.078,M,-0.1011,P,-0.1791,10/10,CN lower
+line,B,Opioid,0.0929,M,0.1411,M,0.0483,1/10,CN higher
+line,B,Rehabilitation,0.0271,M,0.4201,M,0.3931,0/10,CN higher
+line,B,Drug user,0.032,0,0.1203,M,0.0883,0/10,CN higher
+line,B,Prescription,0.0232,0,0.1429,M,0.1197,0/10,CN higher
+line,B,Cocaine,-0.0375,0,-0.1869,P,-0.1493,10/10,CN lower
+line,B,Heroin,-0.0209,0,-0.2634,P,-0.2425,10/10,CN lower
+line,B,Trafficking,-0.1867,P,-0.307,P,-0.1203,10/10,CN lower
+line,B,Drug (general),-0.1996,P,-0.2468,P,-0.0472,10/10,CN lower
+line,B,Marijuana,-0.2077,P,-0.2065,P,0.0012,5/10,undetermined
+line,C,Addiction,0.2333,M,0.0998,M,-0.1335,10/10,CN lower
+line,C,Abuse,0.0615,M,-0.0195,P,-0.0811,10/10,CN lower
+line,C,Overdose,0.0495,M,,,,,US only
+line,C,Prevention,0.0697,M,-0.1007,P,-0.1705,10/10,CN lower
+line,C,Opioid,0.0877,M,0.1439,M,0.0561,1/10,CN higher
+line,C,Rehabilitation,-0.0874,P,0.3097,M,0.3971,0/10,CN higher
+line,C,Drug user,0.0427,M,0.1042,M,0.0615,0/10,CN higher
+line,C,Prescription,0.0201,0,0.1763,M,0.1562,0/10,CN higher
+line,C,Cocaine,-0.0125,0,-0.1785,P,-0.166,10/10,CN lower
+line,C,Heroin,0.0009,0,-0.2669,P,-0.2678,10/10,CN lower
+line,C,Trafficking,-0.1579,P,-0.3226,P,-0.1646,10/10,CN lower
+line,C,Drug (general),-0.2013,P,-0.2343,P,-0.0329,10/10,CN lower
+line,C,Marijuana,-0.1827,P,-0.1887,P,-0.0061,5/10,undetermined
+line,D,Addiction,0.2333,M,0.0707,M,-0.1626,10/10,CN lower
+line,D,Abuse,0.0615,M,0.0088,0,-0.0527,10/10,CN lower
+line,D,Overdose,0.0495,M,,,,,US only
+line,D,Prevention,0.0697,M,-0.1057,P,-0.1754,10/10,CN lower
+line,D,Opioid,0.0877,M,0.1636,M,0.0759,0/10,CN higher
+line,D,Rehabilitation,-0.0874,P,0.2255,M,0.313,0/10,CN higher
+line,D,Drug user,0.0427,M,0.0845,M,0.0419,1/10,CN higher
+line,D,Prescription,0.0201,0,0.2133,M,0.1932,0/10,CN higher
+line,D,Cocaine,-0.0125,0,-0.1557,P,-0.1432,10/10,CN lower
+line,D,Heroin,0.0009,0,-0.239,P,-0.2398,10/10,CN lower
+line,D,Trafficking,-0.1579,P,-0.3015,P,-0.1436,10/10,CN lower
+line,D,Drug (general),-0.2013,P,-0.2165,P,-0.0151,7/10,undetermined
+line,D,Marijuana,-0.1827,P,-0.1608,P,0.0218,2/10,undetermined
+sentence,B,Addiction,0.2369,M,0.2224,M,-0.0145,7/10,undetermined
+sentence,B,Abuse,0.1423,M,-0.0403,P,-0.1827,10/10,CN lower
+sentence,B,Overdose,0.0739,M,,,,,US only
+sentence,B,Prevention,0.1347,M,-0.1011,P,-0.2358,10/10,CN lower
+sentence,B,Opioid,0.158,M,0.1411,M,-0.0169,5/10,undetermined
+sentence,B,Rehabilitation,0.136,M,0.4201,M,0.2842,0/10,CN higher
+sentence,B,Drug user,0.0775,M,0.1203,M,0.0427,1/10,CN higher
+sentence,B,Prescription,0.0268,0,0.1429,M,0.1161,0/10,CN higher
+sentence,B,Cocaine,-0.0547,P,-0.1869,P,-0.1322,10/10,CN lower
+sentence,B,Heroin,-0.0143,0,-0.2634,P,-0.2491,10/10,CN lower
+sentence,B,Trafficking,-0.1671,P,-0.307,P,-0.1399,10/10,CN lower
+sentence,B,Drug (general),-0.1694,P,-0.2468,P,-0.0773,10/10,CN lower
+sentence,B,Marijuana,-0.2442,P,-0.2065,P,0.0377,2/10,undetermined
+sentence,C,Addiction,0.2312,M,0.0998,M,-0.1314,10/10,CN lower
+sentence,C,Abuse,0.1135,M,-0.0195,P,-0.133,10/10,CN lower
+sentence,C,Overdose,0.0694,M,,,,,US only
+sentence,C,Prevention,0.1167,M,-0.1007,P,-0.2175,10/10,CN lower
+sentence,C,Opioid,0.1549,M,0.1439,M,-0.011,5/10,undetermined
+sentence,C,Rehabilitation,0.0237,0,0.3097,M,0.286,0/10,CN higher
+sentence,C,Drug user,0.0817,M,0.1042,M,0.0225,4/10,undetermined
+sentence,C,Prescription,0.0268,M,0.1763,M,0.1495,0/10,CN higher
+sentence,C,Cocaine,-0.0338,P,-0.1785,P,-0.1447,10/10,CN lower
+sentence,C,Heroin,0.005,0,-0.2669,P,-0.2719,10/10,CN lower
+sentence,C,Trafficking,-0.1547,P,-0.3226,P,-0.1679,10/10,CN lower
+sentence,C,Drug (general),-0.1862,P,-0.2343,P,-0.0481,10/10,CN lower
+sentence,C,Marijuana,-0.2291,P,-0.1887,P,0.0403,2/10,undetermined
+sentence,D,Addiction,0.2312,M,0.0707,M,-0.1605,10/10,CN lower
+sentence,D,Abuse,0.1135,M,0.0088,0,-0.1047,10/10,CN lower
+sentence,D,Overdose,0.0694,M,,,,,US only
+sentence,D,Prevention,0.1167,M,-0.1057,P,-0.2224,10/10,CN lower
+sentence,D,Opioid,0.1549,M,0.1636,M,0.0087,2/10,undetermined
+sentence,D,Rehabilitation,0.0237,0,0.2255,M,0.2018,0/10,CN higher
+sentence,D,Drug user,0.0817,M,0.0845,M,0.0029,5/10,undetermined
+sentence,D,Prescription,0.0268,M,0.2133,M,0.1865,0/10,CN higher
+sentence,D,Cocaine,-0.0338,P,-0.1557,P,-0.1219,10/10,CN lower
+sentence,D,Heroin,0.005,0,-0.239,P,-0.244,10/10,CN lower
+sentence,D,Trafficking,-0.1547,P,-0.3015,P,-0.1469,10/10,CN lower
+sentence,D,Drug (general),-0.1862,P,-0.2165,P,-0.0303,8/10,undetermined
+sentence,D,Marijuana,-0.2291,P,-0.1608,P,0.0682,0/10,CN higher
+line_noname,B,Addiction,0.2665,M,0.2224,M,-0.0441,9/10,CN lower
+line_noname,B,Abuse,0.1111,M,-0.0403,P,-0.1515,10/10,CN lower
+line_noname,B,Overdose,0.0593,M,,,,,US only
+line_noname,B,Prevention,0.1119,M,-0.1011,P,-0.213,10/10,CN lower
+line_noname,B,Opioid,0.124,M,0.1411,M,0.0172,2/10,undetermined
+line_noname,B,Rehabilitation,0.1022,M,0.4201,M,0.3179,0/10,CN higher
+line_noname,B,Drug user,0.0697,M,0.1203,M,0.0506,0/10,CN higher
+line_noname,B,Prescription,0.0351,M,0.1429,M,0.1078,0/10,CN higher
+line_noname,B,Cocaine,-0.055,P,-0.1869,P,-0.1319,10/10,CN lower
+line_noname,B,Heroin,-0.0027,0,-0.2634,P,-0.2607,10/10,CN lower
+line_noname,B,Trafficking,-0.2049,P,-0.307,P,-0.1021,10/10,CN lower
+line_noname,B,Drug (general),-0.2187,P,-0.2468,P,-0.0281,9/10,CN lower
+line_noname,B,Marijuana,-0.1899,P,-0.2065,P,-0.0166,8/10,undetermined
+line_noname,C,Addiction,0.247,M,0.0998,M,-0.1471,10/10,CN lower
+line_noname,C,Abuse,0.0765,M,-0.0195,P,-0.096,10/10,CN lower
+line_noname,C,Overdose,0.0565,M,,,,,US only
+line_noname,C,Prevention,0.098,M,-0.1007,P,-0.1987,10/10,CN lower
+line_noname,C,Opioid,0.1092,M,0.1439,M,0.0347,1/10,CN higher
+line_noname,C,Rehabilitation,-0.0018,0,0.3097,M,0.3115,0/10,CN higher
+line_noname,C,Drug user,0.0701,M,0.1042,M,0.0342,1/10,CN higher
+line_noname,C,Prescription,0.0263,M,0.1763,M,0.1501,0/10,CN higher
+line_noname,C,Cocaine,-0.0402,P,-0.1785,P,-0.1383,10/10,CN lower
+line_noname,C,Heroin,0.0079,0,-0.2669,P,-0.2748,10/10,CN lower
+line_noname,C,Trafficking,-0.1888,P,-0.3226,P,-0.1338,10/10,CN lower
+line_noname,C,Drug (general),-0.2306,P,-0.2343,P,-0.0036,6/10,undetermined
+line_noname,C,Marijuana,-0.1735,P,-0.1887,P,-0.0153,8/10,undetermined
+line_noname,D,Addiction,0.247,M,0.0707,M,-0.1763,10/10,CN lower
+line_noname,D,Abuse,0.0765,M,0.0088,0,-0.0677,10/10,CN lower
+line_noname,D,Overdose,0.0565,M,,,,,US only
+line_noname,D,Prevention,0.098,M,-0.1057,P,-0.2037,10/10,CN lower
+line_noname,D,Opioid,0.1092,M,0.1636,M,0.0544,1/10,CN higher
+line_noname,D,Rehabilitation,-0.0018,0,0.2255,M,0.2274,0/10,CN higher
+line_noname,D,Drug user,0.0701,M,0.0845,M,0.0145,4/10,undetermined
+line_noname,D,Prescription,0.0263,M,0.2133,M,0.187,0/10,CN higher
+line_noname,D,Cocaine,-0.0402,P,-0.1557,P,-0.1155,10/10,CN lower
+line_noname,D,Heroin,0.0079,0,-0.239,P,-0.2469,10/10,CN lower
+line_noname,D,Trafficking,-0.1888,P,-0.3015,P,-0.1127,10/10,CN lower
+line_noname,D,Drug (general),-0.2306,P,-0.2165,P,0.0142,3/10,undetermined
+line_noname,D,Marijuana,-0.1735,P,-0.1608,P,0.0126,2/10,undetermined
+sent_noname,B,Addiction,0.2307,M,0.2224,M,-0.0083,7/10,undetermined
+sent_noname,B,Abuse,0.1363,M,-0.0403,P,-0.1767,10/10,CN lower
+sent_noname,B,Overdose,0.0649,M,,,,,US only
+sent_noname,B,Prevention,0.1364,M,-0.1011,P,-0.2375,10/10,CN lower
+sent_noname,B,Opioid,0.1686,M,0.1411,M,-0.0275,9/10,CN lower
+sent_noname,B,Rehabilitation,0.182,M,0.4201,M,0.2381,0/10,CN higher
+sent_noname,B,Drug user,0.0783,M,0.1203,M,0.042,2/10,undetermined
+sent_noname,B,Prescription,0.0198,0,0.1429,M,0.123,0/10,CN higher
+sent_noname,B,Cocaine,-0.0679,P,-0.1869,P,-0.119,10/10,CN lower
+sent_noname,B,Heroin,-0.0056,0,-0.2634,P,-0.2578,10/10,CN lower
+sent_noname,B,Trafficking,-0.1698,P,-0.307,P,-0.1372,10/10,CN lower
+sent_noname,B,Drug (general),-0.1949,P,-0.2468,P,-0.0519,10/10,CN lower
+sent_noname,B,Marijuana,-0.2257,P,-0.2065,P,0.0192,2/10,undetermined
+sent_noname,C,Addiction,0.2201,M,0.0998,M,-0.1203,10/10,CN lower
+sent_noname,C,Abuse,0.1101,M,-0.0195,P,-0.1297,10/10,CN lower
+sent_noname,C,Overdose,0.0662,M,,,,,US only
+sent_noname,C,Prevention,0.1258,M,-0.1007,P,-0.2266,10/10,CN lower
+sent_noname,C,Opioid,0.1522,M,0.1439,M,-0.0083,6/10,undetermined
+sent_noname,C,Rehabilitation,0.0806,M,0.3097,M,0.2291,0/10,CN higher
+sent_noname,C,Drug user,0.0767,M,0.1042,M,0.0275,2/10,undetermined
+sent_noname,C,Prescription,0.0116,0,0.1763,M,0.1647,0/10,CN higher
+sent_noname,C,Cocaine,-0.0536,P,-0.1785,P,-0.1249,10/10,CN lower
+sent_noname,C,Heroin,0.0043,0,-0.2669,P,-0.2712,10/10,CN lower
+sent_noname,C,Trafficking,-0.1533,P,-0.3226,P,-0.1693,10/10,CN lower
+sent_noname,C,Drug (general),-0.2007,P,-0.2343,P,-0.0335,9/10,CN lower
+sent_noname,C,Marijuana,-0.2153,P,-0.1887,P,0.0266,1/10,CN higher
+sent_noname,D,Addiction,0.2201,M,0.0707,M,-0.1494,10/10,CN lower
+sent_noname,D,Abuse,0.1101,M,0.0088,0,-0.1013,10/10,CN lower
+sent_noname,D,Overdose,0.0662,M,,,,,US only
+sent_noname,D,Prevention,0.1258,M,-0.1057,P,-0.2315,10/10,CN lower
+sent_noname,D,Opioid,0.1522,M,0.1636,M,0.0114,3/10,undetermined
+sent_noname,D,Rehabilitation,0.0806,M,0.2255,M,0.145,0/10,CN higher
+sent_noname,D,Drug user,0.0767,M,0.0845,M,0.0078,4/10,undetermined
+sent_noname,D,Prescription,0.0116,0,0.2133,M,0.2017,0/10,CN higher
+sent_noname,D,Cocaine,-0.0536,P,-0.1557,P,-0.1021,10/10,CN lower
+sent_noname,D,Heroin,0.0043,0,-0.239,P,-0.2433,10/10,CN lower
+sent_noname,D,Trafficking,-0.1533,P,-0.3015,P,-0.1483,10/10,CN lower
+sent_noname,D,Drug (general),-0.2007,P,-0.2165,P,-0.0157,7/10,undetermined
+sent_noname,D,Marijuana,-0.2153,P,-0.1608,P,0.0545,0/10,CN higher

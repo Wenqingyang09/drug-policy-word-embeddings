@@ -1,0 +1,147 @@
+==========================================================================================
+Part 1. Capitalised phrases containing a target or anchor word (frequency >= 5)
+        * = already covered by the current list of names
+   *   425  national drug control strategy
+   *   178  substance abuse and mental health services administration
+   *    98  department of health and human services
+   *    89  national survey on drug use and health
+   *    81  centers for disease control and prevention
+   *    59  drug enforcement administration
+   *    56  office of national drug control policy
+   *    39  national institute on drug abuse
+   *    38  national drug control strategy kakkkk
+   *    37  national drug control strategy kkkkkkkk
+        33  national center for health statistics
+        33  center for behavioral health statistics and quality
+        27  break the cycle of drug use
+        27  affordable care act
+        24  national institutes of health
+        21  food and drug administration
+        21  american journal of public health
+        20  drug abuse warning network
+        20  prescription drug abuse prevention plan
+        18  strengthen efforts to prevent drug use in our communities
+        18  disrupt domestic drug trafficking and production
+   *    17  center for substance abuse treatment
+   *    17  national drug control strategy kkkkk
+        15  indian health service
+        15  national drug threat assessment
+        15  national association of drug court professionals
+   *    14  national drug control strategy action item
+        13  treatment episode data set
+   *    13  national institute on alcohol abuse and alcoholism
+        13  subst abuse treat
+        12  referral to treatment
+   *    12  center for substance abuse prevention
+        11  veterans treatment courts
+   *    11  immigration and customs enforcement
+        11  arrestee drug abuse monitoring
+        11  health resources and services administration
+        10  united nations office on drugs and crime
+        10  secure and responsible drug disposal act
+        10  prescription drug abuse crisis
+        10  drug and alcohol dependence
+        10  national center on addiction and substance abuse
+   *    10  national drug control strategy kakkkkkkk
+         9  integrate treatment for substance use disorders
+         9  domestic highway enforcement
+         9  world health organization
+   *     9  substance abuse prevention and treatment block grant
+         9  substance abuse
+         9  journal of substance abuse treatment
+         9  mental health parity and addiction equity act
+         9  drug alcohol depend
+         9  national drug control program agencies
+   *     9  department of justice drug enforcement administration
+         8  treatment alternatives for safe communities
+         8  border enforcement security task forces
+   *     8  high intensity drug trafficking areas
+         8  national hospital care survey
+         8  national center for injury prevention and control
+         8  national drug control program
+         7  office of juvenile justice and delinquency prevention
+         7  develop and disseminate information on youth drug
+         7  national roadside survey of alcohol and drug use
+         7  create supportive communities to sustain recovery
+         7  health and human services
+   *     7  national drug control strategy the administration
+         7  organized crime drug enforcement task forces
+         7  community drug early warning system
+         7  international journal of drug policy
+         7  opioid epidemic
+         7  commission on narcotic drugs
+   *     6  national drug control strategy message from the president of the united states transmitting the administration
+         6  national drug control strat-
+         6  drug free communities
+         6  seek early intervention opportunities in health care
+         6  criminal justice system
+         6  celebrate and support recovery
+         6  impede recovery
+         6  including recovery schools
+         6  drug market intervention
+         6  federal enforcement initiatives must
+   *     6  national drug control strategy figure
+         6  drug and alcohol services information system
+         6  system to retrieve information on drug evidence
+         6  national drug control budget
+         6  national prevention system must
+   *     6  national drug control strategy principle
+         6  national coordinator for health information technology
+         6  prescription drug monitoring programs
+         6  veterans health administration
+         6  federally qualified health centers
+         6  national survey of substance abuse treatment services
+         6  national drug control program agency
+         6  national treatment plan
+         6  substance abuse and america
+         6  drug data plan
+         5  national drug intelligence center
+   *     5  national drug control strategy in
+         5  access to recovery
+         5  foster the expansion of community-based recovery support programs
+         5  support drug testing
+         5  improve treatment for youth involved
+         5  organization of american states inter-american drug abuse control commission
+         5  better assess price and purity of illicit drugs
+         5  transition drug seizure tracking
+         5  interagency assessment of cocaine movement
+         5  transparently estimating the cultivation and yield of marijuana
+         5  director of national drug control policy
+         5  national impaired driving prevention month
+         5  national prevention council
+         5  advanced roadside impaired driving enforcement
+         5  national drug court institute
+         5  financial crimes enforcement network
+   *     5  national drug control strategy the
+         5  preventing prescription drug abuse
+         5  recovery-oriented systems of care
+         5  federal-wide drug seizure system
+         5  national substance abuse prevention month
+         5  journal of drug education
+         5  bureau of international narcotics and law enforcement affairs
+         5  national drug early warning system
+         5  prescription drug abuse action plan
+         5  transnational criminal organizations
+         5  north american drug dialogue
+         5  national heroin threat assessment
+   *     5  national drug control strategy appendix
+   *     5  national drug control strategy kkkkkkkk principle
+         5  urban health
+         5  cascade of care
+==========================================================================================
+Part 2. Sentence units
+   units 18020, tokens 425150
+   tokens in units longer than 50: 83558 (19.7%)
+   tokens in units longer than 100: 15782 (3.7%)
+   tokens in units longer than 200: 6044 (1.4%)
+   beginning of the ten longest units:
+   [914 tokens] NATIONAL DRUG CONTROL STRATEGY 97 KaKKKK* Glossary ACEs: ACF/FYSB: ADAM: AHRQ: ALPR: AMI: ARCOS: ASPE: ATF: AWARE: BOP: BSCA CBP: CCDB: CclIU: CCW: CDC: CGIC: CI2: CJNG: CMS: CND: CNWG: COJ: COPS: COS
+   [755 tokens] CBAG CBSI cCDB CCHS CHRIS CcCICAD CJ-DATS cops CPOT DASIS DAWN List of Acronyms Administration for Children and Families Arrestee Drug Abuse Monitoring program Department of Agriculture American India
+   [704 tokens] * 94 Appendix Two List of Acronyms ACYF Administration for Children, Youth, and Families [HHS] ADAM Arrestee Drug Abuse Monitoring program AFP Australian Federal Police ARIDE Advanced Roadside Impaire
+   [540 tokens] Department of Health and Human Services) Center for Substance Abuse Treatment/SAMHSA (US Department of Health and CEWG DAWN DS4P EPIC FAFSA FDSS FQHC Human Services) Community Epidemiology Working Gro
+   [446 tokens] we FO & ARIDE BEST CADCA CARSI CBSI ccDB CNWG CPOT DASIS DAWN DICE EPIC ER/LA List of Abbreviations Advanced Roadside Impaired Driving Enforcement Above the influence Access to Recovery Border Enforce
+   [385 tokens] eeceeccesccesecsseeeeseeeeecesecaecsecesevcesseceaecaeecseeseeseeceseceaecaaeeseeeeeeseesaeceaecaeeeaeeeeeeeeeaees 126 NATIONAL DRUG CONTROL STRATEGY KKkKKKKK Glossary AAMC: American Association of Me
+   [329 tokens] Department of Housing and Urban Development Institute for Behavior and Health US Immigration and Customs Enforcement Indian Health Service Bureau of International Narcotics and Law Enforcement Affairs
+   [313 tokens] CBSI CCDB CCSF CDCR CDEWS CGIl CNWG Soke List of Abbreviations Administration for Children and Families (US Department of Health and Human Services) Arrestee Drug Abuse Monitoring Acquired Immunodefic
+   [299 tokens] Department of Health and Human Services) Arrestee Drug Abuse Monitoring Acquired Immunodeficiency Syndrome Advanced Roadside Impaired Driving Enforcement Association of Recovery Schools Bureau of Alco
+   [281 tokens] Measures of Performance * Educate the public, especially adolescents, about drug use, specifically opioids increase, mandatory prescriber education and continuing training on best practices and curren

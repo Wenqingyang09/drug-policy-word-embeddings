@@ -1,0 +1,404 @@
+==========================================================================================
+0. Training units
+   line         units   35062   tokens   426648   mean length  12.2   median   13   max 25   units > 100 tokens 0
+   sentence     units   17838   tokens   425150   mean length  23.8   median   21   max 914   units > 100 tokens 93
+   line_noname  units   33912   tokens   416015   mean length  12.3   median   13   max 43   units > 100 tokens 0
+   sent_noname  units   17700   tokens   415196   mean length  23.5   median   21   max 809   units > 100 tokens 88
+   original non-empty lines ending in . ! ? : 5193/37431 (14%)
+   institutional names replaced:
+         9  bureau of international narcotics and law enforcement affairs
+       193  substance abuse and mental health services administration
+         5  california department of corrections and rehabilitation
+        11  national coordinator for health information technology
+        13  office of juvenile justice and delinquency prevention
+         9  national survey of substance abuse treatment services
+        12  substance abuse prevention and treatment block grant
+        33  center for behavioral health statistics and quality
+        15  national institute on alcohol abuse and alcoholism
+         8  national center for injury prevention and control
+        22  national association of drug court professionals
+        10  national center on addiction and substance abuse
+         8  national roadside survey of alcohol and drug use
+         7  system to retrieve information on drug evidence
+        11  advanced roadside impaired driving enforcement
+        12  mental health parity and addiction equity act
+        19  health resources and services administration
+        13  organized crime drug enforcement task forces
+         0  brief intervention and referral to treatment
+        14  inter american drug abuse control commission
+        10  drug and alcohol services information system
+         8  organized crime drug enforcement task force
+        11  treatment alternatives for safe communities
+        93  centers for disease control and prevention
+         8  interagency assessment of cocaine movement
+        10  national impaired driving prevention month
+         3  center for disease control and prevention
+         7  national substance abuse prevention month
+        14  director of national drug control policy
+        11  secure and responsible drug disposal act
+       114  department of health and human services
+         9  border enforcement security task forces
+        22  prescription drug abuse prevention plan
+        82  office of national drug control policy
+         7  border enforcement security task force
+       110  national survey on drug use and health
+        16  center for substance abuse prevention
+        37  national center for health statistics
+        19  high intensity drug trafficking areas
+        22  center for substance abuse treatment
+        10  financial crimes enforcement network
+        15  high intensity drug trafficking area
+         9  journal of substance abuse treatment
+         7  international journal of drug policy
+        17  immigration and customs enforcement
+         5  prescription drug abuse action plan
+        11  community drug early warning system
+         7  national drug early warning system
+        10  national drug intelligence center
+         5  national heroin threat assessment
+        20  american journal of public health
+        45  national institute on drug abuse
+         0  federal wide drug seizure system
+        87  drug enforcement administration
+        18  national drug threat assessment
+        13  veterans health administration
+       801  national drug control strategy
+        24  arrestee drug abuse monitoring
+        26  national institutes of health
+        32  national drug control program
+         6  national drug court institute
+         8  national hospital care survey
+        27  food and drug administration
+         8  national drug control budget
+        13  domestic highway enforcement
+         6  north american drug dialogue
+         8  national prevention council
+        10  drug and alcohol dependence
+        37  drug abuse warning network
+        23  treatment episode data set
+        14  health and human services
+         9  world health organization
+         5  journal of drug education
+        20  drug market intervention
+         8  national treatment plan
+        29  indian health service
+        49  drug free communities
+        38  affordable care act
+         9  drug alcohol depend
+        18  access to recovery
+        13  subst abuse treat
+   frequency of 'abuse': 1186 -> 733 after replacing names
+   frequency of 'prevention': 1150 -> 958 after replacing names
+   frequency of 'rehabilitation': 26 -> 21 after replacing names
+   frequency of 'drug': 6374 -> 4795 after replacing names
+   frequency of 'trafficking': 734 -> 700 after replacing names
+==========================================================================================
+Training 10 Chinese models ...
+   done
+Training 10 US models, variant 'line' ...
+   done
+Training 10 US models, variant 'sentence' ...
+   done
+Training 10 US models, variant 'line_noname' ...
+   done
+Training 10 US models, variant 'sent_noname' ...
+   done
+==========================================================================================
+1. H1 (CN lower / CN higher / undetermined) and H2 (runs with CN rehabilitation > 0)
+   line         set-up B: 6 / 4 / 2    H2 10/10   CN rehab mean 0.420
+   line         set-up C: 7 / 4 / 1    H2 10/10   CN rehab mean 0.310
+   line         set-up D: 6 / 4 / 2    H2 10/10   CN rehab mean 0.226
+   sentence     set-up B: 6 / 3 / 3    H2 10/10   CN rehab mean 0.420
+   sentence     set-up C: 7 / 2 / 3    H2 10/10   CN rehab mean 0.310
+   sentence     set-up D: 6 / 3 / 3    H2 10/10   CN rehab mean 0.226
+   line_noname  set-up B: 7 / 3 / 2    H2 10/10   CN rehab mean 0.420
+   line_noname  set-up C: 6 / 4 / 2    H2 10/10   CN rehab mean 0.310
+   line_noname  set-up D: 6 / 3 / 3    H2 10/10   CN rehab mean 0.226
+   sent_noname  set-up B: 7 / 2 / 3    H2 10/10   CN rehab mean 0.420
+   sent_noname  set-up C: 7 / 3 / 2    H2 10/10   CN rehab mean 0.310
+   sent_noname  set-up D: 6 / 3 / 3    H2 10/10   CN rehab mean 0.226
+==========================================================================================
+2. Per concept: US mean (side) / CN mean (side) / difference / runs CN lower / direction
+   side: M = positive in >= 9 runs, P = negative in >= 9 runs, 0 = neither
+   ---- set-up B
+   Addiction
+      line         US  0.2436 (M)   CN  0.2224 (M)   diff -0.0213    7/10   undetermined
+      sentence     US  0.2369 (M)   CN  0.2224 (M)   diff -0.0145    7/10   undetermined
+      line_noname  US  0.2665 (M)   CN  0.2224 (M)   diff -0.0441    9/10   CN lower
+      sent_noname  US  0.2307 (M)   CN  0.2224 (M)   diff -0.0083    7/10   undetermined
+   Abuse
+      line         US  0.0895 (M)   CN -0.0403 (P)   diff -0.1298   10/10   CN lower
+      sentence     US  0.1423 (M)   CN -0.0403 (P)   diff -0.1827   10/10   CN lower
+      line_noname  US  0.1111 (M)   CN -0.0403 (P)   diff -0.1515   10/10   CN lower
+      sent_noname  US  0.1363 (M)   CN -0.0403 (P)   diff -0.1767   10/10   CN lower
+   Overdose
+      line         US  0.0493 (M)   CN         ()   diff                   US only
+      sentence     US  0.0739 (M)   CN         ()   diff                   US only
+      line_noname  US  0.0593 (M)   CN         ()   diff                   US only
+      sent_noname  US  0.0649 (M)   CN         ()   diff                   US only
+   Prevention
+      line         US   0.078 (M)   CN -0.1011 (P)   diff -0.1791   10/10   CN lower
+      sentence     US  0.1347 (M)   CN -0.1011 (P)   diff -0.2358   10/10   CN lower
+      line_noname  US  0.1119 (M)   CN -0.1011 (P)   diff  -0.213   10/10   CN lower
+      sent_noname  US  0.1364 (M)   CN -0.1011 (P)   diff -0.2375   10/10   CN lower
+   Opioid
+      line         US  0.0929 (M)   CN  0.1411 (M)   diff  0.0483    1/10   CN higher
+      sentence     US   0.158 (M)   CN  0.1411 (M)   diff -0.0169    5/10   undetermined
+      line_noname  US   0.124 (M)   CN  0.1411 (M)   diff  0.0172    2/10   undetermined
+      sent_noname  US  0.1686 (M)   CN  0.1411 (M)   diff -0.0275    9/10   CN lower
+   Rehabilitation
+      line         US  0.0271 (M)   CN  0.4201 (M)   diff  0.3931    0/10   CN higher
+      sentence     US   0.136 (M)   CN  0.4201 (M)   diff  0.2842    0/10   CN higher
+      line_noname  US  0.1022 (M)   CN  0.4201 (M)   diff  0.3179    0/10   CN higher
+      sent_noname  US   0.182 (M)   CN  0.4201 (M)   diff  0.2381    0/10   CN higher
+   Drug user
+      line         US   0.032 (0)   CN  0.1203 (M)   diff  0.0883    0/10   CN higher
+      sentence     US  0.0775 (M)   CN  0.1203 (M)   diff  0.0427    1/10   CN higher
+      line_noname  US  0.0697 (M)   CN  0.1203 (M)   diff  0.0506    0/10   CN higher
+      sent_noname  US  0.0783 (M)   CN  0.1203 (M)   diff   0.042    2/10   undetermined
+   Prescription
+      line         US  0.0232 (0)   CN  0.1429 (M)   diff  0.1197    0/10   CN higher
+      sentence     US  0.0268 (0)   CN  0.1429 (M)   diff  0.1161    0/10   CN higher
+      line_noname  US  0.0351 (M)   CN  0.1429 (M)   diff  0.1078    0/10   CN higher
+      sent_noname  US  0.0198 (0)   CN  0.1429 (M)   diff   0.123    0/10   CN higher
+   Cocaine
+      line         US -0.0375 (0)   CN -0.1869 (P)   diff -0.1493   10/10   CN lower
+      sentence     US -0.0547 (P)   CN -0.1869 (P)   diff -0.1322   10/10   CN lower
+      line_noname  US  -0.055 (P)   CN -0.1869 (P)   diff -0.1319   10/10   CN lower
+      sent_noname  US -0.0679 (P)   CN -0.1869 (P)   diff  -0.119   10/10   CN lower
+   Heroin
+      line         US -0.0209 (0)   CN -0.2634 (P)   diff -0.2425   10/10   CN lower
+      sentence     US -0.0143 (0)   CN -0.2634 (P)   diff -0.2491   10/10   CN lower
+      line_noname  US -0.0027 (0)   CN -0.2634 (P)   diff -0.2607   10/10   CN lower
+      sent_noname  US -0.0056 (0)   CN -0.2634 (P)   diff -0.2578   10/10   CN lower
+   Trafficking
+      line         US -0.1867 (P)   CN  -0.307 (P)   diff -0.1203   10/10   CN lower
+      sentence     US -0.1671 (P)   CN  -0.307 (P)   diff -0.1399   10/10   CN lower
+      line_noname  US -0.2049 (P)   CN  -0.307 (P)   diff -0.1021   10/10   CN lower
+      sent_noname  US -0.1698 (P)   CN  -0.307 (P)   diff -0.1372   10/10   CN lower
+   Drug (general)
+      line         US -0.1996 (P)   CN -0.2468 (P)   diff -0.0472   10/10   CN lower
+      sentence     US -0.1694 (P)   CN -0.2468 (P)   diff -0.0773   10/10   CN lower
+      line_noname  US -0.2187 (P)   CN -0.2468 (P)   diff -0.0281    9/10   CN lower
+      sent_noname  US -0.1949 (P)   CN -0.2468 (P)   diff -0.0519   10/10   CN lower
+   Marijuana
+      line         US -0.2077 (P)   CN -0.2065 (P)   diff  0.0012    5/10   undetermined
+      sentence     US -0.2442 (P)   CN -0.2065 (P)   diff  0.0377    2/10   undetermined
+      line_noname  US -0.1899 (P)   CN -0.2065 (P)   diff -0.0166    8/10   undetermined
+      sent_noname  US -0.2257 (P)   CN -0.2065 (P)   diff  0.0192    2/10   undetermined
+   ---- set-up C
+   Addiction
+      line         US  0.2333 (M)   CN  0.0998 (M)   diff -0.1335   10/10   CN lower
+      sentence     US  0.2312 (M)   CN  0.0998 (M)   diff -0.1314   10/10   CN lower
+      line_noname  US   0.247 (M)   CN  0.0998 (M)   diff -0.1471   10/10   CN lower
+      sent_noname  US  0.2201 (M)   CN  0.0998 (M)   diff -0.1203   10/10   CN lower
+   Abuse
+      line         US  0.0615 (M)   CN -0.0195 (P)   diff -0.0811   10/10   CN lower
+      sentence     US  0.1135 (M)   CN -0.0195 (P)   diff  -0.133   10/10   CN lower
+      line_noname  US  0.0765 (M)   CN -0.0195 (P)   diff  -0.096   10/10   CN lower
+      sent_noname  US  0.1101 (M)   CN -0.0195 (P)   diff -0.1297   10/10   CN lower
+   Overdose
+      line         US  0.0495 (M)   CN         ()   diff                   US only
+      sentence     US  0.0694 (M)   CN         ()   diff                   US only
+      line_noname  US  0.0565 (M)   CN         ()   diff                   US only
+      sent_noname  US  0.0662 (M)   CN         ()   diff                   US only
+   Prevention
+      line         US  0.0697 (M)   CN -0.1007 (P)   diff -0.1705   10/10   CN lower
+      sentence     US  0.1167 (M)   CN -0.1007 (P)   diff -0.2175   10/10   CN lower
+      line_noname  US   0.098 (M)   CN -0.1007 (P)   diff -0.1987   10/10   CN lower
+      sent_noname  US  0.1258 (M)   CN -0.1007 (P)   diff -0.2266   10/10   CN lower
+   Opioid
+      line         US  0.0877 (M)   CN  0.1439 (M)   diff  0.0561    1/10   CN higher
+      sentence     US  0.1549 (M)   CN  0.1439 (M)   diff  -0.011    5/10   undetermined
+      line_noname  US  0.1092 (M)   CN  0.1439 (M)   diff  0.0347    1/10   CN higher
+      sent_noname  US  0.1522 (M)   CN  0.1439 (M)   diff -0.0083    6/10   undetermined
+   Rehabilitation
+      line         US -0.0874 (P)   CN  0.3097 (M)   diff  0.3971    0/10   CN higher
+      sentence     US  0.0237 (0)   CN  0.3097 (M)   diff   0.286    0/10   CN higher
+      line_noname  US -0.0018 (0)   CN  0.3097 (M)   diff  0.3115    0/10   CN higher
+      sent_noname  US  0.0806 (M)   CN  0.3097 (M)   diff  0.2291    0/10   CN higher
+   Drug user
+      line         US  0.0427 (M)   CN  0.1042 (M)   diff  0.0615    0/10   CN higher
+      sentence     US  0.0817 (M)   CN  0.1042 (M)   diff  0.0225    4/10   undetermined
+      line_noname  US  0.0701 (M)   CN  0.1042 (M)   diff  0.0342    1/10   CN higher
+      sent_noname  US  0.0767 (M)   CN  0.1042 (M)   diff  0.0275    2/10   undetermined
+   Prescription
+      line         US  0.0201 (0)   CN  0.1763 (M)   diff  0.1562    0/10   CN higher
+      sentence     US  0.0268 (M)   CN  0.1763 (M)   diff  0.1495    0/10   CN higher
+      line_noname  US  0.0263 (M)   CN  0.1763 (M)   diff  0.1501    0/10   CN higher
+      sent_noname  US  0.0116 (0)   CN  0.1763 (M)   diff  0.1647    0/10   CN higher
+   Cocaine
+      line         US -0.0125 (0)   CN -0.1785 (P)   diff  -0.166   10/10   CN lower
+      sentence     US -0.0338 (P)   CN -0.1785 (P)   diff -0.1447   10/10   CN lower
+      line_noname  US -0.0402 (P)   CN -0.1785 (P)   diff -0.1383   10/10   CN lower
+      sent_noname  US -0.0536 (P)   CN -0.1785 (P)   diff -0.1249   10/10   CN lower
+   Heroin
+      line         US  0.0009 (0)   CN -0.2669 (P)   diff -0.2678   10/10   CN lower
+      sentence     US   0.005 (0)   CN -0.2669 (P)   diff -0.2719   10/10   CN lower
+      line_noname  US  0.0079 (0)   CN -0.2669 (P)   diff -0.2748   10/10   CN lower
+      sent_noname  US  0.0043 (0)   CN -0.2669 (P)   diff -0.2712   10/10   CN lower
+   Trafficking
+      line         US -0.1579 (P)   CN -0.3226 (P)   diff -0.1646   10/10   CN lower
+      sentence     US -0.1547 (P)   CN -0.3226 (P)   diff -0.1679   10/10   CN lower
+      line_noname  US -0.1888 (P)   CN -0.3226 (P)   diff -0.1338   10/10   CN lower
+      sent_noname  US -0.1533 (P)   CN -0.3226 (P)   diff -0.1693   10/10   CN lower
+   Drug (general)
+      line         US -0.2013 (P)   CN -0.2343 (P)   diff -0.0329   10/10   CN lower
+      sentence     US -0.1862 (P)   CN -0.2343 (P)   diff -0.0481   10/10   CN lower
+      line_noname  US -0.2306 (P)   CN -0.2343 (P)   diff -0.0036    6/10   undetermined
+      sent_noname  US -0.2007 (P)   CN -0.2343 (P)   diff -0.0335    9/10   CN lower
+   Marijuana
+      line         US -0.1827 (P)   CN -0.1887 (P)   diff -0.0061    5/10   undetermined
+      sentence     US -0.2291 (P)   CN -0.1887 (P)   diff  0.0403    2/10   undetermined
+      line_noname  US -0.1735 (P)   CN -0.1887 (P)   diff -0.0153    8/10   undetermined
+      sent_noname  US -0.2153 (P)   CN -0.1887 (P)   diff  0.0266    1/10   CN higher
+   ---- set-up D
+   Addiction
+      line         US  0.2333 (M)   CN  0.0707 (M)   diff -0.1626   10/10   CN lower
+      sentence     US  0.2312 (M)   CN  0.0707 (M)   diff -0.1605   10/10   CN lower
+      line_noname  US   0.247 (M)   CN  0.0707 (M)   diff -0.1763   10/10   CN lower
+      sent_noname  US  0.2201 (M)   CN  0.0707 (M)   diff -0.1494   10/10   CN lower
+   Abuse
+      line         US  0.0615 (M)   CN  0.0088 (0)   diff -0.0527   10/10   CN lower
+      sentence     US  0.1135 (M)   CN  0.0088 (0)   diff -0.1047   10/10   CN lower
+      line_noname  US  0.0765 (M)   CN  0.0088 (0)   diff -0.0677   10/10   CN lower
+      sent_noname  US  0.1101 (M)   CN  0.0088 (0)   diff -0.1013   10/10   CN lower
+   Overdose
+      line         US  0.0495 (M)   CN         ()   diff                   US only
+      sentence     US  0.0694 (M)   CN         ()   diff                   US only
+      line_noname  US  0.0565 (M)   CN         ()   diff                   US only
+      sent_noname  US  0.0662 (M)   CN         ()   diff                   US only
+   Prevention
+      line         US  0.0697 (M)   CN -0.1057 (P)   diff -0.1754   10/10   CN lower
+      sentence     US  0.1167 (M)   CN -0.1057 (P)   diff -0.2224   10/10   CN lower
+      line_noname  US   0.098 (M)   CN -0.1057 (P)   diff -0.2037   10/10   CN lower
+      sent_noname  US  0.1258 (M)   CN -0.1057 (P)   diff -0.2315   10/10   CN lower
+   Opioid
+      line         US  0.0877 (M)   CN  0.1636 (M)   diff  0.0759    0/10   CN higher
+      sentence     US  0.1549 (M)   CN  0.1636 (M)   diff  0.0087    2/10   undetermined
+      line_noname  US  0.1092 (M)   CN  0.1636 (M)   diff  0.0544    1/10   CN higher
+      sent_noname  US  0.1522 (M)   CN  0.1636 (M)   diff  0.0114    3/10   undetermined
+   Rehabilitation
+      line         US -0.0874 (P)   CN  0.2255 (M)   diff   0.313    0/10   CN higher
+      sentence     US  0.0237 (0)   CN  0.2255 (M)   diff  0.2018    0/10   CN higher
+      line_noname  US -0.0018 (0)   CN  0.2255 (M)   diff  0.2274    0/10   CN higher
+      sent_noname  US  0.0806 (M)   CN  0.2255 (M)   diff   0.145    0/10   CN higher
+   Drug user
+      line         US  0.0427 (M)   CN  0.0845 (M)   diff  0.0419    1/10   CN higher
+      sentence     US  0.0817 (M)   CN  0.0845 (M)   diff  0.0029    5/10   undetermined
+      line_noname  US  0.0701 (M)   CN  0.0845 (M)   diff  0.0145    4/10   undetermined
+      sent_noname  US  0.0767 (M)   CN  0.0845 (M)   diff  0.0078    4/10   undetermined
+   Prescription
+      line         US  0.0201 (0)   CN  0.2133 (M)   diff  0.1932    0/10   CN higher
+      sentence     US  0.0268 (M)   CN  0.2133 (M)   diff  0.1865    0/10   CN higher
+      line_noname  US  0.0263 (M)   CN  0.2133 (M)   diff   0.187    0/10   CN higher
+      sent_noname  US  0.0116 (0)   CN  0.2133 (M)   diff  0.2017    0/10   CN higher
+   Cocaine
+      line         US -0.0125 (0)   CN -0.1557 (P)   diff -0.1432   10/10   CN lower
+      sentence     US -0.0338 (P)   CN -0.1557 (P)   diff -0.1219   10/10   CN lower
+      line_noname  US -0.0402 (P)   CN -0.1557 (P)   diff -0.1155   10/10   CN lower
+      sent_noname  US -0.0536 (P)   CN -0.1557 (P)   diff -0.1021   10/10   CN lower
+   Heroin
+      line         US  0.0009 (0)   CN  -0.239 (P)   diff -0.2398   10/10   CN lower
+      sentence     US   0.005 (0)   CN  -0.239 (P)   diff  -0.244   10/10   CN lower
+      line_noname  US  0.0079 (0)   CN  -0.239 (P)   diff -0.2469   10/10   CN lower
+      sent_noname  US  0.0043 (0)   CN  -0.239 (P)   diff -0.2433   10/10   CN lower
+   Trafficking
+      line         US -0.1579 (P)   CN -0.3015 (P)   diff -0.1436   10/10   CN lower
+      sentence     US -0.1547 (P)   CN -0.3015 (P)   diff -0.1469   10/10   CN lower
+      line_noname  US -0.1888 (P)   CN -0.3015 (P)   diff -0.1127   10/10   CN lower
+      sent_noname  US -0.1533 (P)   CN -0.3015 (P)   diff -0.1483   10/10   CN lower
+   Drug (general)
+      line         US -0.2013 (P)   CN -0.2165 (P)   diff -0.0151    7/10   undetermined
+      sentence     US -0.1862 (P)   CN -0.2165 (P)   diff -0.0303    8/10   undetermined
+      line_noname  US -0.2306 (P)   CN -0.2165 (P)   diff  0.0142    3/10   undetermined
+      sent_noname  US -0.2007 (P)   CN -0.2165 (P)   diff -0.0157    7/10   undetermined
+   Marijuana
+      line         US -0.1827 (P)   CN -0.1608 (P)   diff  0.0218    2/10   undetermined
+      sentence     US -0.2291 (P)   CN -0.1608 (P)   diff  0.0682    0/10   CN higher
+      line_noname  US -0.1735 (P)   CN -0.1608 (P)   diff  0.0126    2/10   undetermined
+      sent_noname  US -0.2153 (P)   CN -0.1608 (P)   diff  0.0545    0/10   CN higher
+==========================================================================================
+Check against results_v1: largest absolute difference in per-run scores = 0.00000 over 250 scores (0.00001 or less = exact reproduction)
+==========================================================================================
+3. Direction changes relative to the 'line' baseline (threshold 9)
+   set-up B  sentence     Opioid: CN higher -> undetermined
+   set-up B  line_noname  Addiction: undetermined -> CN lower; Opioid: CN higher -> undetermined
+   set-up B  sent_noname  Opioid: CN higher -> CN lower; Drug user: CN higher -> undetermined
+   set-up C  sentence     Opioid: CN higher -> undetermined; Drug user: CN higher -> undetermined
+   set-up C  line_noname  Drug (general): CN lower -> undetermined
+   set-up C  sent_noname  Opioid: CN higher -> undetermined; Drug user: CN higher -> undetermined; Marijuana: undetermined -> CN higher
+   set-up D  sentence     Opioid: CN higher -> undetermined; Drug user: CN higher -> undetermined; Marijuana: undetermined -> CN higher
+   set-up D  line_noname  Drug user: CN higher -> undetermined
+   set-up D  sent_noname  Opioid: CN higher -> undetermined; Drug user: CN higher -> undetermined; Marijuana: undetermined -> CN higher
+==========================================================================================
+4. Concepts with the same direction in all 4 variants x 3 set-ups (12 combinations)
+   CN lower in all 12: Abuse, Prevention, Cocaine, Heroin, Trafficking
+   CN higher in all 12: Rehabilitation, Prescription
+==========================================================================================
+5. Percentile check (set-up C): each concept's percentile rank among all words with
+   frequency >= 20 in its own model, anchors excluded; H1 re-assessed on ranks
+   CN rehabilitation percentile, mean over runs: 96.5
+   line         10 / 2 / 0   higher: Rehabilitation, Prescription   undetermined: -   US rehabilitation percentile 54.0
+   sentence     9 / 2 / 1   higher: Rehabilitation, Prescription   undetermined: Marijuana   US rehabilitation percentile 76.1
+   line_noname  9 / 2 / 1   higher: Rehabilitation, Prescription   undetermined: Drug (general)   US rehabilitation percentile 74.8
+   sent_noname  9 / 2 / 1   higher: Rehabilitation, Prescription   undetermined: Marijuana   US rehabilitation percentile 86.2
+==========================================================================================
+6. Dimension validity by variant (set-up C): 10 highest and 10 lowest words,
+   frequency >= 20, anchors excluded, mean over 10 runs
+   line         medical : quality, behavioral, reimbursement, aca, parity, mainstream, sbirt, primary, adoption, clinical
+                punitive: prosecute, prosecution, gangs, investigate, violent, cartel, convictions, streets, cartels, sentences
+   sentence     medical : mainstream, quality, primary, reimbursement, treat, billing, hepatitis, provider, md, aca
+                punitive: sentences, prosecution, gangs, prosecute, arrested, cartels, penalties, dealers, conviction, street
+   line_noname  medical : behavioral, mental, reimbursement, clinical, cognitive, primary, mainstream, quality, aca, sbirt
+                punitive: prosecute, gangs, investigate, prosecution, violent, street, cartels, cartel, penalties, streets
+   sent_noname  medical : mainstream, primary, reimbursement, behavioral, mental, adoption, clinicians, provider, motivational, billing
+                punitive: gangs, sentences, prosecute, penalties, cartels, prosecution, violent, arrested, streets, dealers
+==========================================================================================
+7. Stable nearest neighbours (top 15 in >= 8 of 10 runs), US, by variant
+   rehabilitation  line         detoxification, ex, female, includ, loan, offender, prisoner, reunification, sobriety, transitional
+   rehabilitation  sentence     economics, female, outpatient, parolees, prisoner, receipt, residential, scm
+   rehabilitation  line_noname  coaching, detoxification, female, includ, loan, postpartum, reunification, sobriety, transitional
+   rehabilitation  sent_noname  detoxification, economics, loan, outpatient, psychotherapy, receipt, residential, reunification, transitional
+   users           line         cigarettes, declines, dying, heavy, induced, nonmedical, poisonings, stimulants
+   users           sentence     cigarettes, declines, died, dying, heavy, poisonings
+   users           line_noname  cigarettes, declines, dying, heavy, induced, nonmedical, poisonings, stimulants
+   users           sent_noname  declines, dying, heavy, misusing, poisonings
+   abuse           line         alcoholism, bars, dependence, locator, misuse, name, sapt, titled, ts
+   abuse           sentence     alcoholism, economics, locator, misuse, name, rockville, sapt, ssats, substance, titled
+   abuse           line_noname  dependence, fastest, followed, misuse, sapt, use
+   abuse           sent_noname  abusing, alcoholism, dependence, dsm, fastest, inventory, locator, misuse, titled, use
+   prevention      line         aces, childhood, elementary, encompass, locator, preven, registry, sapt, vulnerability
+   prevention      sentence     elementary, encompass, investing, locator, registry, selective
+   prevention      line_noname  aim, encompass, investing, locator, parent, preven, sapt, selective, spectrum
+   prevention      sent_noname  elementary, encompass, evidencebased, intervention, investing, locator, matrix, selective, spectrum
+==========================================================================================
+8. Frequencies of target and anchor words in each US variant (training data)
+   word                    line     sentence  line_noname  sent_noname
+   abuse                   1186         1185          733          732
+   addiction                532          532          510          510
+   arrest                    86           85           86           85
+   care                     990          987          944          941
+   cocaine                  315          317          307          309
+   criminal                 743          744          743          744
+   disorder                 368          370          368          370
+   drug                    6374         6357         4795         4778
+   enforcement             1342         1358         1158         1174
+   health                  2719         2716         2081         2076
+   heroin                   299          301          294          296
+   marijuana                410          420          410          420
+   offender                  31           31           31           31
+   offense                   19           19           19           19
+   opioid                   670          667          670          667
+   overdose                 605          608          605          608
+   patient                  148          146          148          146
+   prescription             679          693          652          666
+   prevention              1150         1170          958          978
+   punishment                11           11           11           11
+   recovery                1193         1190         1175         1172
+   rehabilitation            26           26           21           21
+   sanction                   5            5            5            5
+   therapy                   55           57           55           57
+   trafficking              734          740          700          706
+   treatment               2150         2178         2057         2084
+   users                    133          134          133          134

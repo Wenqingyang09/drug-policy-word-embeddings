@@ -1,0 +1,28 @@
+﻿country,pole,dropped anchor,Addiction,Abuse,Prevention,Opioid,Rehabilitation,Drug user,Prescription,Cocaine,Heroin,Trafficking,Drug (general),Marijuana
+US,medical,treatment,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,undetermined,CN lower
+US,medical,patient,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,CN lower,undetermined
+US,medical,disorder,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,undetermined,undetermined
+US,medical,recovery,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,CN lower,undetermined
+US,medical,therapy,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,CN lower,undetermined
+US,medical,health,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,undetermined,undetermined
+US,medical,care,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,undetermined,undetermined
+US,punitive,punishment,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,CN lower,CN lower
+US,punitive,offense,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,undetermined,undetermined
+US,punitive,offender,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,CN lower,CN higher
+US,punitive,criminal,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,CN lower,undetermined
+US,punitive,arrest,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,undetermined,undetermined
+US,punitive,sanction,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,CN lower,undetermined
+US,punitive,enforcement,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,undetermined,undetermined
+CN,medical,治疗,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,CN lower,undetermined
+CN,medical,患者,CN lower,CN lower,CN lower,undetermined,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,undetermined,undetermined
+CN,medical,戒毒,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,undetermined,undetermined
+CN,medical,医疗,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,undetermined,undetermined
+CN,medical,健康,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,undetermined,undetermined
+CN,medical,药物,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,CN lower,undetermined
+CN,punitive,处罚,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,CN lower,undetermined
+CN,punitive,犯罪,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,undetermined,undetermined
+CN,punitive,违法,CN lower,CN lower,CN lower,undetermined,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,CN lower,undetermined
+CN,punitive,惩治,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,undetermined,undetermined
+CN,punitive,刑罚,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,CN lower,undetermined
+CN,punitive,逮捕,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,CN lower,undetermined
+CN,punitive,罚款,CN lower,CN lower,CN lower,CN higher,CN higher,CN higher,CN higher,CN lower,CN lower,CN lower,CN lower,undetermined
