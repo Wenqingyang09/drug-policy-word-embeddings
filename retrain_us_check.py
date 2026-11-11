@@ -68,7 +68,7 @@ def say(s=""):
     LOG.append(s)
 
 
-# ------------------------------------------------------------ US text
+# US text
 RAW = open(os.path.join(DESK, "usa_corpus_clean.txt"), encoding="utf-8").read()
 
 
@@ -225,7 +225,7 @@ with open(os.path.join(OUT, "name_replacements.csv"), "w", newline="", encoding=
     w.writerow(["name", "replacements"])
     w.writerows(NAME_COUNTS.items())
 
-# ------------------------------------------------------------ CN text
+# CN text
 def noise(w):
     if not w.strip():
         return True
@@ -243,7 +243,7 @@ for s in open(os.path.join(DESK, "china_corpus_clean_v3.txt"), encoding="utf-8")
     if len(ws) > 3:
         CN_SENTS.append(ws)
 
-# ------------------------------------------------- concepts and anchors
+# Concepts and anchors
 # identical to results_summary.py
 T = {
     "US": {"Addiction": "addiction", "Abuse": "abuse", "Overdose": "overdose",
@@ -296,7 +296,7 @@ def train(sents, seed):
                     workers=1, epochs=10, sg=1, seed=seed).wv
 
 
-# ------------------------------------------------------------ train
+# Train
 say("=" * 90)
 say("Training 10 Chinese models ...")
 CN_WV = []
@@ -335,7 +335,7 @@ def direction(us, cn, k, thr):
 
 CN_RES = {k: scores(CN_WV, "CN", k) for k in "BCD"}
 
-# ------------------------------------------------------------ results
+# Results
 def sign(vals):
     pos = sum(v > 0 for v in vals)
     if pos >= 9:

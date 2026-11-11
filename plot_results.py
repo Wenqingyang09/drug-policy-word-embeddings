@@ -75,7 +75,7 @@ for g in groups:
         groups[g].sort(key=lambda k: abs(val(main[k], "Diff mean")))
 order = [g for g in "ABCDE" if groups[g]]
 
-# ---------------------------------------------------------------- Figure 1
+# Figure 1
 heights = [len(groups[g]) + 0.6 for g in order]
 fig, axes = plt.subplots(len(order), 1, figsize=(7.2, 0.42 * sum(heights) + 1.6),
                          sharex=True, gridspec_kw={"height_ratios": heights})
@@ -115,7 +115,7 @@ for ext in ("png", "pdf"):
     fig.savefig(os.path.join(DIR, f"figure1.{ext}"), dpi=300, bbox_inches="tight")
 plt.close(fig)
 
-# ---------------------------------------------------------------- Figure 2
+# Figure 2
 shared = [k for k, r in main.items() if r["CN sign"] != "absent"]
 shared.sort(key=lambda k: val(main[k], "Diff mean"))
 fig, ax = plt.subplots(figsize=(7.2, 0.38 * len(shared) + 1.6))

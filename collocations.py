@@ -51,7 +51,7 @@ def noise(w):
     return re.fullmatch(r"[0-9.,%·]+", w) is not None
 
 
-# ---------------------------------------------------------------- corpora
+# Corpora
 us_text = open(os.path.join(DESK, "usa_corpus_clean.txt"), encoding="utf-8").read().lower()
 us_text = re.sub(r"[^a-z\s]", " ", us_text)
 US = [s.split() for s in us_text.split("\n") if len(s.strip()) > 10]
@@ -125,7 +125,7 @@ for c, sents in (("US", US), ("CN", CN)):
             line = CN_RAW[si] if c == "CN" else " ".join(sents[si])
             say(f"  example {k}: {line[:220]}")
 
-# ------------------------------------------------ fixed Chinese phrases
+# Fixed Chinese phrases
 say("=" * 78)
 say("Chinese fixed phrases (counted in the segmented text)")
 n_k = n_sq = n_phrase = n_jd = 0

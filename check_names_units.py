@@ -56,7 +56,7 @@ CURRENT = [
     "immigration and customs enforcement",
 ]
 
-# ------------------------------------------------------------ part 1
+# Part 1
 CAP = r"[A-Z][A-Za-z\-]+"
 CONN = r"(?:of|and|for|on|the|in|to|&)"
 PHRASE = re.compile(rf"{CAP}(?:[ \t]*\n?[ \t]*(?:{CONN}[ \t]*\n?[ \t]*)?{CAP})+")
@@ -78,7 +78,7 @@ for p, k in cnt.most_common():
     mark = "*" if any(c in p for c in CURRENT) else " "
     say(f"   {mark} {k:>5}  {p}")
 
-# ------------------------------------------------------------ part 2
+# Part 2
 ABBR = r"\b(Dr|Mr|Mrs|Ms|No|Nos|vs|etc|Inc|Jr|Sr|St|Fig|Vol|pp|Sec|Dept|Gov|approx)\."
 
 

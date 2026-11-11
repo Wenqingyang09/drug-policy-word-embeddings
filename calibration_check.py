@@ -33,7 +33,7 @@ os.makedirs(OUT, exist_ok=True)
 SEEDS = list(range(1, 11))
 THR = 9
 
-# ---------------------------------------------------------------- data
+# Data
 us_text = open(os.path.join(DESK, "usa_corpus_clean.txt"), encoding="utf-8").read().lower()
 us_text = re.sub(r"[^a-z\s]", " ", us_text)
 US_SENTS = [s.split() for s in us_text.split("\n") if len(s.strip()) > 10]
@@ -56,7 +56,7 @@ for s in open(os.path.join(DESK, "china_corpus_clean_v3.txt"), encoding="utf-8")
     if len(ws) > 3:
         CN_SENTS.append(ws)
 
-# ------------------------------------------------------- concepts/anchors
+# Concepts/anchors
 T = {
     "US": {"Addiction": "addiction", "Abuse": "abuse", "Overdose": "overdose",
            "Prevention": "prevention", "Opioid": "opioid",
@@ -102,7 +102,7 @@ def concept_scores(wv, c, d):
     return {k: float(np.dot(unit(wv[t]), d)) for k, t in T[c].items() if t in wv}
 
 
-# ---------------------------------------------------------------- train
+# Train
 print("Training 10 models per country ...")
 WV = {"US": [], "CN": []}
 for s in SEEDS:

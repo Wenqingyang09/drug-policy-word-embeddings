@@ -44,7 +44,7 @@ def say(s=""):
     LOG.append(s)
 
 
-# ---------------------------------------------------------- data, as in results_summary.py
+# Data, as in results_summary.py
 us_text = open(os.path.join(DESK, "usa_corpus_clean.txt"), encoding="utf-8").read().lower()
 us_text = re.sub(r"[^a-z\s]", " ", us_text)
 US_SENTS = [s.split() for s in us_text.split("\n") if len(s.strip()) > 10]

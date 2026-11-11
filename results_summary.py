@@ -35,7 +35,7 @@ os.makedirs(OUT, exist_ok=True)
 SEEDS = list(range(1, 11))
 THR = 9
 
-# ---------------------------------------------------------------- data
+# Data
 us_text = open(os.path.join(DESK, "usa_corpus_clean.txt"), encoding="utf-8").read().lower()
 us_text = re.sub(r"[^a-z\s]", " ", us_text)
 US_SENTS = [s.split() for s in us_text.split("\n") if len(s.strip()) > 10]
@@ -58,7 +58,7 @@ for s in open(os.path.join(DESK, "china_corpus_clean_v3.txt"), encoding="utf-8")
     if len(ws) > 3:
         CN_SENTS.append(ws)
 
-# ------------------------------------------------------- concepts/anchors
+# Concepts/anchors
 T = {
     "US": {"Addiction": "addiction", "Abuse": "abuse", "Overdose": "overdose",
            "Prevention": "prevention", "Opioid": "opioid",
@@ -104,7 +104,7 @@ def concept_scores(wv, c, d):
     return {k: float(np.dot(unit(wv[t]), d)) for k, t in T[c].items() if t in wv}
 
 
-# ---------------------------------------------------------------- train
+# Train
 print("Training 10 models per country ...")
 WV = {"US": [], "CN": []}
 for s in SEEDS:
@@ -149,7 +149,7 @@ def sign(vals):
 RES = {k: run_setup({c: setup_anchors(c, k) for c in WV}) for k in "BCD"}
 main = RES["C"]
 
-# ---------------------------------------------------------- 1. main table
+# 1. Main table
 print("=" * 100)
 print("1. Main results, set-up C, mean (sd) over 10 runs")
 hdr = ["Concept", "US mean", "US sd", "US sign", "CN mean", "CN sd", "CN sign",
@@ -174,7 +174,7 @@ with open(os.path.join(OUT, "main_results.csv"), "w", newline="", encoding="utf-
     w.writerow(hdr)
     w.writerows([[round(x, 4) if isinstance(x, float) else x for x in r] for r in rows])
 
-# ------------------------------------------------------- 2. robustness
+# 2. Robustness
 print("=" * 100)
 print("2. H1 and H2 by set-up and threshold (CN lower / CN higher / undetermined; CN rehab > 0 runs)")
 rob = []
@@ -209,7 +209,7 @@ with open(os.path.join(OUT, "robustness.csv"), "w", newline="", encoding="utf-8-
                 "rehab>0 runs", "rehab mean"])
     w.writerows(loo)
 
-# ------------------------------------------------------- 3. validation
+# 3. Validation
 print("=" * 100)
 print("3. Dimension validation: 15 highest and lowest words (freq >= 20, anchors excluded)")
 poles_rows = []
@@ -234,7 +234,7 @@ with open(os.path.join(OUT, "poles.csv"), "w", newline="", encoding="utf-8-sig")
     w.writerow(["country", "end", "word", "mean score"])
     w.writerows(poles_rows)
 
-# ------------------------------------------------------- 4. neighbours
+# 4. Neighbours
 print("=" * 100)
 print("4. Stable nearest neighbours (top 15 in >= 8 of 10 runs)")
 nb_rows = []
